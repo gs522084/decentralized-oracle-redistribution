@@ -29,46 +29,43 @@ A continuous, real-time prediction market where nodes constantly stake on data a
 
 ## 📁 Project Architecture
 
-项目根目录: decentralized-oracle-redistribution/
-
-核心文件:
-- README.md    - 项目说明文档
-- LICENSE      - MIT许可证  
-- .gitignore   - Git忽略规则
-- Cargo.toml   - Rust工作空间配置
-
-目录结构:
-- .github/workflows/ci.yml        - GitHub Actions持续集成
-- contracts/                      - 智能合约
-  - src/lib.rs                    - 合约主入口
-  - src/oracle.rs                 - 预言机核心逻辑
-  - src/types.rs                  - 数据类型定义
-  - src/weight_calculator.rs      - 权重计算
-  - Cargo.toml                    - 合约依赖配置
-- offchain-node/                  - 链下节点客户端
-  - src/main.rs                   - 节点主程序
-  - src/data_fetcher.rs           - 数据获取器
-  - src/strategy.rs               - 报告策略
-  - src/oracle_client.rs          - 区块链交互
-  - Cargo.toml                    - 节点依赖配置
-- simulation/                     - 经济模型模拟器
-  - src/simulator.rs              - 核心模拟逻辑
-  - src/analysis.rs               - 结果分析
-  - src/metrics.rs                - 评估指标
-  - src/attack_scenarios.rs       - 安全分析
-  - examples/basic_simulation.rs  - 基础模拟示例
-  - examples/adversarial_analysis.rs - 攻击分析示例
-  - Cargo.toml                    - 模拟器依赖配置
-- docs/                           - 文档和研究
-  - whitepaper.md                 - 技术白皮书
-  - theory.md                     - 理论证明
-  - api.md                        - API文档
-  - economics.md                  - 经济分析
-- scripts/                        - 部署和工具脚本
-  - deploy.sh                     - 合约部署脚本
-  - testnet.sh                    - 测试网部署
-  - analytics.py                  - 数据分析
-  - benchmark.sh                  - 性能测试
+| Path | Type | Description |
+|------|------|-------------|
+| `README.md` | File | Project documentation |
+| `LICENSE` | File | MIT License |
+| `.gitignore` | File | Git ignore rules |
+| `Cargo.toml` | File | Rust workspace configuration |
+| `.github/workflows/ci.yml` | File | GitHub Actions CI/CD |
+| `contracts/` | Directory | Smart contracts module |
+| `contracts/src/lib.rs` | File | Contract main entry |
+| `contracts/src/oracle.rs` | File | Oracle core logic |
+| `contracts/src/types.rs` | File | Data type definitions |
+| `contracts/src/weight_calculator.rs` | File | Weight calculation logic |
+| `contracts/Cargo.toml` | File | Contract dependencies |
+| `offchain-node/` | Directory | Off-chain node client |
+| `offchain-node/src/main.rs` | File | Node main program |
+| `offchain-node/src/data_fetcher.rs` | File | Market data fetcher |
+| `offchain-node/src/strategy.rs` | File | Reporting strategies |
+| `offchain-node/src/oracle_client.rs` | File | Blockchain interaction |
+| `offchain-node/Cargo.toml` | File | Node dependencies |
+| `simulation/` | Directory | Economic simulator |
+| `simulation/src/simulator.rs` | File | Core simulation logic |
+| `simulation/src/analysis.rs` | File | Result analysis |
+| `simulation/src/metrics.rs` | File | Evaluation metrics |
+| `simulation/src/attack_scenarios.rs` | File | Security analysis |
+| `simulation/examples/basic_simulation.rs` | File | Basic simulation example |
+| `simulation/examples/adversarial_analysis.rs` | File | Attack analysis example |
+| `simulation/Cargo.toml` | File | Simulator dependencies |
+| `docs/` | Directory | Research & documentation |
+| `docs/whitepaper.md` | File | Technical whitepaper |
+| `docs/theory.md` | File | Theoretical proofs |
+| `docs/api.md` | File | API documentation |
+| `docs/economics.md` | File | Economic analysis |
+| `scripts/` | Directory | Deployment & utility scripts |
+| `scripts/deploy.sh` | File | Contract deployment script |
+| `scripts/testnet.sh` | File | Testnet deployment |
+| `scripts/analytics.py` | File | Data analysis |
+| `scripts/benchmark.sh` | File | Performance testing |
 
 ## 🏗️ Module Overview
 
