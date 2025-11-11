@@ -16,6 +16,7 @@ Existing decentralized oracle solutions face fundamental trade-offs between cens
 ```rust
 P_i = (N * S) × (W_i / ΣW_j)
 where W_i = f(|v_i - M|)
+```
 
 A continuous, real-time prediction market where nodes constantly stake on data accuracy. The system operates as a perpetual data truth game - nodes provide data streams and simultaneously bet against deviations from collective wisdom.
 
@@ -106,7 +107,6 @@ Complete technical specifications, mathematical proofs, and implementation guide
 ```rust
 // Attack Profitability Condition
 Expected_Profit(attack) = Σ(P_attack) - Cost(attack) < Expected_Profit(honest)
-```
 
 ## 🚀 Quick Start
 ### Prerequisites
