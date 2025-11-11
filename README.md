@@ -28,6 +28,7 @@ A continuous, real-time prediction market where nodes constantly stake on data a
 - ✅ **Censorship Resistance** - Truly decentralized with no single points of failure
 
 ## 📁 Project Architecture
+
 ```
 ├── README.md
 ├── LICENSE
