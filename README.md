@@ -70,7 +70,7 @@ A continuous, real-time prediction market where nodes constantly stake on data a
     ├── testnet.sh
     ├── analytics.py
     └── benchmark.sh
-    ```
+```
 
 ## 🏗️ Module Overview
 
