@@ -1,14 +1,10 @@
 # Decentralized Oracle with Stake Redistribution
 
-A fully decentralized oracle protocol with stake redistribution mechanism based on data accuracy - fusing game theory and cryptoeconomics to create the "ninth wonder of the world".
+A fully decentralized oracle protocol with stake redistribution mechanism based on data accuracy - fusing game theory and cryptoeconomics.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Rust](https://img.shields.io/badge/built_with-Rust-orange.svg)](https://www.rust-lang.org)
-[![CI](https://github.com/gs522084/decentralized-oracle-redistribution/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/decentralized-oracle-redistribution/actions/workflows/ci.yml)
-
-## 🌟 The Ninth Wonder
-
-> **"The Miracle of Large Numbers"** - Where rational self-interest converges to absolute truth through mathematical inevitability.
+[![CI](https://github.com/your-username/decentralized-oracle-redistribution/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/decentralized-oracle-redistribution/actions/workflows/ci.yml)
 
 ## 📖 Abstract
 
@@ -27,11 +23,9 @@ A continuous, real-time prediction market where nodes constantly stake on data a
 
 - ✅ **Incentive Compatibility** - Honest reporting is the dominant strategy
 - ✅ **Sybil Resistance** - Attacks are prohibitively expensive and unprofitable
-- ✅ Full Permissionlessness - Global participation without gatekeepers
-
-- ✅ Real-time Finality - No dispute delays, instant data resolution
-
-- ✅ Censorship Resistance - Truly decentralized with no single points of failure
+- ✅ **Full Permissionlessness** - Global participation without gatekeepers
+- ✅ **Real-time Finality** - No dispute delays, instant data resolution  
+- ✅ **Censorship Resistance** - Truly decentralized with no single points of failure
 
 ## 📁 Project Architecture
 ```
@@ -75,7 +69,8 @@ A continuous, real-time prediction market where nodes constantly stake on data a
     ├── deploy.sh
     ├── testnet.sh
     ├── analytics.py
-    └── benchmark.sh```
+    └── benchmark.sh
+    ```
 
 ## 🏗️ Module Overview
 
@@ -223,24 +218,14 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 - **Front-running** - Addressed with encryption and sequencing
 
 ## 📄 License
-
 MIT License - see [LICENSE](LICENSE) file for details.
-
-## 📞 Contact & Resources
-
-- **Research Paper**: [Link to academic paper]
-- **Technical Documentation**: [docs/whitepaper.md](docs/whitepaper.md)
-- **Community Forum**: [Discord/Link]
-- **Bug Reports**: GitHub Issues
 
 ## 📞 Community
 - **GitHub Repository**: [Project URL]
 - **Discussion**: GitHub Issues
 - **Contributing**: See CONTRIBUTING.md
-
-
+  
 ---
-
 > "We don't trust in human goodness; we trust in rational self-interest."
 > 
 > This isn't just another oracle—it's a mathematical inevitability where truth emerges from the beautiful convergence of individual rationality and collective wisdom. The ninth wonder isn't a structure you can see, but a truth you can prove.
