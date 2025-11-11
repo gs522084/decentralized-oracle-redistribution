@@ -36,42 +36,42 @@ decentralized-oracle-redistribution/
 ├── .gitignore
 ├── Cargo.toml
 ├── .github/
-│ └── workflows/
-│ └── ci.yml
+│   └── workflows/
+│       └── ci.yml
 ├── contracts/
-│ ├── src/
-│ │ ├── lib.rs
-│ │ ├── oracle.rs
-│ │ ├── types.rs
-│ │ └── weight_calculator.rs
-│ └── Cargo.toml
+│   ├── src/
+│   │   ├── lib.rs
+│   │   ├── oracle.rs
+│   │   ├── types.rs
+│   │   └── weight_calculator.rs
+│   └── Cargo.toml
 ├── offchain-node/
-│ ├── src/
-│ │ ├── main.rs
-│ │ ├── data_fetcher.rs
-│ │ ├── strategy.rs
-│ │ └── oracle_client.rs
-│ └── Cargo.toml
+│   ├── src/
+│   │   ├── main.rs
+│   │   ├── data_fetcher.rs
+│   │   ├── strategy.rs
+│   │   └── oracle_client.rs
+│   └── Cargo.toml
 ├── simulation/
-│ ├── src/
-│ │ ├── simulator.rs
-│ │ ├── analysis.rs
-│ │ ├── metrics.rs
-│ │ └── attack_scenarios.rs
-│ ├── examples/
-│ │ ├── basic_simulation.rs
-│ │ └── adversarial_analysis.rs
-│ └── Cargo.toml
+│   ├── src/
+│   │   ├── simulator.rs
+│   │   ├── analysis.rs
+│   │   ├── metrics.rs
+│   │   └── attack_scenarios.rs
+│   ├── examples/
+│   │   ├── basic_simulation.rs
+│   │   └── adversarial_analysis.rs
+│   └── Cargo.toml
 ├── docs/
-│ ├── whitepaper.md
-│ ├── theory.md
-│ ├── api.md
-│ └── economics.md
+│   ├── whitepaper.md
+│   ├── theory.md
+│   ├── api.md
+│   └── economics.md
 └── scripts/
-├── deploy.sh
-├── testnet.sh
-├── analytics.py
-└── benchmark.sh
+    ├── deploy.sh
+    ├── testnet.sh
+    ├── analytics.py
+    └── benchmark.sh
 ```
 
 ## 🏗️ Module Overview
